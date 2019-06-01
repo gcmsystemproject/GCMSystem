@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="638.0" prefWidth="994.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiView.MainScreenView">
+   <children>
+      <ImageView fitHeight="658.0" fitWidth="994.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/e.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="393.0" layoutY="114.0" prefHeight="380.0" prefWidth="306.0" style="-fx-background-color: white;">
+         <children>
+            <PasswordField layoutX="69.0" layoutY="222.0" prefHeight="31.0" prefWidth="223.0" promptText="Enter password" />
+            <TextField layoutX="69.0" layoutY="159.0" prefHeight="31.0" prefWidth="223.0" promptText="Enter name" />
+            <Button layoutX="137.0" layoutY="302.0" mnemonicParsing="false" text="Log in" />
+            <Button fx:id="cancelBtn" layoutX="280.0" layoutY="2.0" mnemonicParsing="false" onAction="#cancelBackToMainView" text="X" />
+            <Text fill="#3400ff" layoutX="109.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="SIGN IN">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="2.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</Pane>

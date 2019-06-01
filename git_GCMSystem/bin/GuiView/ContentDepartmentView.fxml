@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="983.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="658.0" fitWidth="994.0" layoutX="-11.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/e.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="322.0" layoutX="101.0" layoutY="204.0" stroke="#c3c3c3" strokeType="INSIDE" width="796.0" />
+      <Text fill="#3400ff" layoutX="54.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="(GCM) Global City Map">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="372.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What would you like to do?">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="175.0" layoutX="275.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/createCity.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="329.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create city" />
+      <ImageView fitHeight="126.0" fitWidth="152.0" layoutX="571.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/searchInMap.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="597.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search map" />
+      <MenuButton fx:id="UserMenu" layoutX="799.0" layoutY="41.0" mnemonicParsing="false" text="Hello, Anat">
+        <items>
+          <MenuItem mnemonicParsing="false" text="My profile" />
+          <MenuItem mnemonicParsing="false" text="Logout" />
+        </items>
+      </MenuButton>
+      <ImageView fitHeight="37.0" fitWidth="50.0" layoutX="726.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/envelope.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

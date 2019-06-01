@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="601.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="242.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit City">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="88.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a new map :" />
+      <ImageView fitHeight="37.0" fitWidth="42.0" layoutX="224.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/plus.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="88.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit city name :" />
+      <TextField layoutX="214.0" layoutY="151.0" />
+      <Button layoutX="257.0" layoutY="447.0" mnemonicParsing="false" text="save" />
+      <TextArea layoutX="219.0" layoutY="292.0" prefHeight="104.0" prefWidth="200.0" />
+      <Text layoutX="88.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit description :" />
+      <Button layoutX="573.0" mnemonicParsing="false" text="X" />
+   </children>
+</Pane>
